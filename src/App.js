@@ -26,7 +26,7 @@ function App() {
   if(isFinished) return(
     <div className="app">
       <div className="game__over">
-        <span> {" "} Obtuviste { score } correctas de {questions.length} {" "} </span>
+        <span className="finish__title"> {" "} Obtuviste { score } correctas de {questions.length} {" "} </span>
 
         <button className="button__finish" onClick={() => window.location.href="/"} > {" "} Volver a jugar {" "}</button>
         <button className="button__finish" onClick={() => {
