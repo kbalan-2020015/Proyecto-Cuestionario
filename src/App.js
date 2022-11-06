@@ -1,6 +1,6 @@
 import questions  from "./questions";
 import './estilos/styles.css';
-import { useState} from 'react';
+import { useState } from 'react';
 
 function App() {
   const [currentQuestion, setCurrentQuestion] = useState(0);
